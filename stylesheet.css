@@ -18,10 +18,6 @@ a {
   text-decoration: none;
 }
 
-.clear {
-  clear: left;
-}
-
 .container {
   max-width: 1170px;
   padding: 0 15px;
