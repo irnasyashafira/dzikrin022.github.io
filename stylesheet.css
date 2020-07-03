@@ -18,6 +18,10 @@ a {
   text-decoration: none;
 }
 
+.clear {
+  clear: left;
+}
+
 .container {
   max-width: 1170px;
   padding: 0 15px;
@@ -33,13 +37,15 @@ a {
 
 .top-wrapper h1 {
   font-size: 45px;
-  color: black;
+  color: white;
   letter-spacing: 5px;
   margin-bottom: 10px;
+  font-family:'Segoe UI'
+  
 }
 
 .top-wrapper p {
-  color: #666161;
+  color: white;
   margin-bottom: 3px;
 }
 
@@ -50,6 +56,7 @@ a {
 
 .btn-wrapper p {
   margin: 10px 0;
+  text-color:white;
 }
 
 .price{
@@ -130,11 +137,12 @@ header {
 .heading {
   padding-top: 80px;
   padding-bottom: 50px;
-  color: #5f5d60;
+  color: #ff0059;
 }
 
 .heading h2 {
   font-weight: normal;
+  font-family:'Segoe UI';
 }
 .contents {
   display: flex;
@@ -146,13 +154,17 @@ header {
 
 .content-icon {
   position: relative;
+  opacity: 0.5;
 }
+
+.content-icon:hover {
+  opacity: 0.8;
 
 .content-icon p {
   position: absolute;
   top: 44%;
   width: 100%;
-  color: #666161;
+  color: #fff;
 }
 
 .txt-contents {
@@ -231,8 +243,9 @@ footer {
 
 .menu-icon {
   color: white;
+  display: none;
   float: right;
   font-size: 25px;
   padding: 21px 0;
-  display: none;
+  
 }
