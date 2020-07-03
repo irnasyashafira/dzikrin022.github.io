@@ -52,6 +52,10 @@ a {
   margin: 10px 0;
 }
 
+.fa {
+  padding-right: 5px;
+}
+
 .price{
   background-color: rgb(172, 136, 70);
   margin: 20px 0px;
